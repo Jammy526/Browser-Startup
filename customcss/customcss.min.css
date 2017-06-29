@@ -1,0 +1,191 @@
+body{
+ /*background: url('http://www.publicdomainpictures.net/pictures/50000/velka/flower-meadow.jpg') no-repeat center center fixed;*/
+ background: url('../images/background.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /*fonts*/
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 30.2px;
+  color: #F5F5F5;
+}
+
+/*Google Search*/
+#google{
+   background: url('images/google.png');
+   background-size: 100% 100%;
+  }
+.google-search-button {
+  width: 330px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+  background-color: white;
+  padding: 12px 20px 12px 40px;
+  padding: 10px 15px 10px 20px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+.google-search-button:focus {
+  width: 80%;
+}
+/*Well*/
+.well-favourites{
+  padding-top: 0!important;
+}
+.well-head{
+  text-align: center;
+  color: green;
+  font-family: "sans-serif";
+  font-size: 28px;
+}
+hr{
+
+  border-top: 3px solid #EEE;
+}
+/*Tiles*/
+.btn-outline{
+  background-color: white;
+  border: 2px solid #008CBA;
+  border-radius: 5px;
+  font-size: 24px;
+  padding: 4px 15px;
+  display: inline-block;
+}
+.btn-outline:hover{
+  display: inline-block;
+  background-color: #008CBA;;
+  color: white;
+  text-decoration: none;
+}
+.btn-youtube{
+  background-color: white;
+  border: 2px solid #c4302b;
+  border-radius: 5px;
+  color: #c4302b;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-youtube:hover{
+  display: inline-block;
+  background-color: #c4302b;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-gmail{
+  background-color: white;
+  border: 2px solid #d34836;
+  border-radius: 5px;
+  color: #c4302b;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-gmail:hover{
+  display: inline-block;
+  background-color: #d34836;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-facebook{
+  background-color: white;
+  border: 2px solid #3b5998;
+  border-radius: 5px;
+  color: #3b5998;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-facebook:hover{
+  display: inline-block;
+  background-color: #3b5998;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-appear{
+  background-color: white;
+  border: 2px solid #009688;
+  border-radius: 5px;
+  color: #009688;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-appear:hover{
+  display: inline-block;
+  background-color: #009688;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-stackoverflow{
+  background-color: white;
+  border: 2px solid #ed7a2a;
+  border-radius: 5px;
+  color: #ed7a2a;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-stackoverflow:hover{
+  display: inline-block;
+  background-color: #ed7a2a;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-bing{
+  background-color: white;
+  border: 2px solid #ffb900;
+  border-radius: 5px;
+  color: #ffb900;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-bing:hover{
+  display: inline-block;
+  background-color: #ffb900;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-github{
+  background-color: white;
+  border: 2px solid #3c3c3c;
+  border-radius: 5px;
+  color: #3c3c3c;
+  font-size: 24px;
+  text-align: center;
+  padding: 4px 15px;
+  display: inline-block;
+  min-width: 180px;
+}
+.btn-github:hover{
+  display: inline-block;
+  background-color: #3c3c3c;
+  color: white;
+  text-decoration: none;
+}
